@@ -1,4 +1,11 @@
 rootProject.name = 'laboratoryFedorMicro'
 
-
+include 'eureka-server'
+include 'api-gateway'
+include 'audios'
+include 'users'
+include 'concerts'
+include 'subscriptions'
+include 'github-config-server'
+include 'entities'
 
