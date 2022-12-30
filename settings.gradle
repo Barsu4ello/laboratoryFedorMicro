@@ -8,4 +8,5 @@ include 'concerts'
 include 'subscriptions'
 include 'github-config-server'
 include 'entities'
+include 'utils'
 

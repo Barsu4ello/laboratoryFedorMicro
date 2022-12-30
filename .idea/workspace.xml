@@ -4,18 +4,170 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8ed440ac-56df-4e78-b984-f62b1d42e4be" name="Changes" comment="Added empty project.">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-server/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-server/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-server/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-server/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-server/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-server/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-server/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-server/src/main/java/com/cvetkov/fedor/laboratoryWorkMicro/EurekaServerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-server/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-server/src/test/java/com/cvetkov/fedor/laboratoryWorkMicro/EurekaServerApplicationTests.java" afterDir="false" />
+    <list default="true" id="8ed440ac-56df-4e78-b984-f62b1d42e4be" name="Changes" comment="before cleaning">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/java/com/cvetkov/fedor/laboratoryWorkMicro/gateway/ApiGatewayApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/test/java/com/cvetkov/fedor/laboratoryWorkMicro/gateway/ApiGatewayApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/audios/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/audios/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/audios/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/audios/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/audios/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/audios/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/audios/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/audios/src/main/java/com/cvetkov/fedor/laboratoryworkmicro/audios/AudiosApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/audios/src/main/java/com/cvetkov/fedor/laboratoryworkmicro/audios/controller/AudioController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/audios/src/main/java/com/cvetkov/fedor/laboratoryworkmicro/audios/controller/AuthorController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/audios/src/main/java/com/cvetkov/fedor/laboratoryworkmicro/audios/repository/AudioRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/audios/src/main/java/com/cvetkov/fedor/laboratoryworkmicro/audios/repository/AuthorRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/audios/src/main/java/com/cvetkov/fedor/laboratoryworkmicro/audios/service/AudioService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/audios/src/main/java/com/cvetkov/fedor/laboratoryworkmicro/audios/service/AuthorService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/audios/src/main/java/com/cvetkov/fedor/laboratoryworkmicro/audios/service/impl/AudioServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/audios/src/main/java/com/cvetkov/fedor/laboratoryworkmicro/audios/service/impl/AuthorServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/audios/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concerts/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concerts/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concerts/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concerts/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concerts/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concerts/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concerts/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concerts/src/main/java/com/cvetkov/fedor/laboratoryworkmicro/concerts/ConcertsApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concerts/src/main/java/com/cvetkov/fedor/laboratoryworkmicro/concerts/controller/CityController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concerts/src/main/java/com/cvetkov/fedor/laboratoryworkmicro/concerts/controller/ConcertController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concerts/src/main/java/com/cvetkov/fedor/laboratoryworkmicro/concerts/controller/CountryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concerts/src/main/java/com/cvetkov/fedor/laboratoryworkmicro/concerts/controller/TicketController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concerts/src/main/java/com/cvetkov/fedor/laboratoryworkmicro/concerts/repository/CityRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concerts/src/main/java/com/cvetkov/fedor/laboratoryworkmicro/concerts/repository/ConcertRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concerts/src/main/java/com/cvetkov/fedor/laboratoryworkmicro/concerts/repository/CountryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concerts/src/main/java/com/cvetkov/fedor/laboratoryworkmicro/concerts/repository/TicketRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concerts/src/main/java/com/cvetkov/fedor/laboratoryworkmicro/concerts/service/CityService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concerts/src/main/java/com/cvetkov/fedor/laboratoryworkmicro/concerts/service/ConcertService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concerts/src/main/java/com/cvetkov/fedor/laboratoryworkmicro/concerts/service/CountryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concerts/src/main/java/com/cvetkov/fedor/laboratoryworkmicro/concerts/service/TicketService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concerts/src/main/java/com/cvetkov/fedor/laboratoryworkmicro/concerts/service/impl/CityServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concerts/src/main/java/com/cvetkov/fedor/laboratoryworkmicro/concerts/service/impl/ConcertServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concerts/src/main/java/com/cvetkov/fedor/laboratoryworkmicro/concerts/service/impl/CountryServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concerts/src/main/java/com/cvetkov/fedor/laboratoryworkmicro/concerts/service/impl/TicketServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concerts/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concerts/src/test/java/com/cvetkov/fedor/laboratoryworkmicro/concerts/ConcertsApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entities/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entities/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entities/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entities/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entities/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entities/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entities/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entities/src/main/java/com/cvetkov/fedor/laboratoryworkmicro/entities/EntitiesApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entities/src/main/java/com/cvetkov/fedor/laboratoryworkmicro/entities/dto/request/AudioRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entities/src/main/java/com/cvetkov/fedor/laboratoryworkmicro/entities/dto/request/AuthorRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entities/src/main/java/com/cvetkov/fedor/laboratoryworkmicro/entities/dto/request/CityRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entities/src/main/java/com/cvetkov/fedor/laboratoryworkmicro/entities/dto/request/ConcertRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entities/src/main/java/com/cvetkov/fedor/laboratoryworkmicro/entities/dto/request/CountryRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entities/src/main/java/com/cvetkov/fedor/laboratoryworkmicro/entities/dto/request/SubscriptionRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entities/src/main/java/com/cvetkov/fedor/laboratoryworkmicro/entities/dto/request/TicketRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entities/src/main/java/com/cvetkov/fedor/laboratoryworkmicro/entities/dto/request/UserAndAudioRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entities/src/main/java/com/cvetkov/fedor/laboratoryworkmicro/entities/dto/request/UserPlaylistRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entities/src/main/java/com/cvetkov/fedor/laboratoryworkmicro/entities/dto/request/UserRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entities/src/main/java/com/cvetkov/fedor/laboratoryworkmicro/entities/dto/request/UserSubscriptionRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entities/src/main/java/com/cvetkov/fedor/laboratoryworkmicro/entities/dto/response/AudioResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entities/src/main/java/com/cvetkov/fedor/laboratoryworkmicro/entities/dto/response/AuthorResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entities/src/main/java/com/cvetkov/fedor/laboratoryworkmicro/entities/dto/response/CityResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entities/src/main/java/com/cvetkov/fedor/laboratoryworkmicro/entities/dto/response/ConcertResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entities/src/main/java/com/cvetkov/fedor/laboratoryworkmicro/entities/dto/response/CountryResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entities/src/main/java/com/cvetkov/fedor/laboratoryworkmicro/entities/dto/response/SubscriptionResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entities/src/main/java/com/cvetkov/fedor/laboratoryworkmicro/entities/dto/response/TicketResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entities/src/main/java/com/cvetkov/fedor/laboratoryworkmicro/entities/dto/response/UserPlaylistResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entities/src/main/java/com/cvetkov/fedor/laboratoryworkmicro/entities/dto/response/UserResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entities/src/main/java/com/cvetkov/fedor/laboratoryworkmicro/entities/dto/response/UserSubscriptionResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entities/src/main/java/com/cvetkov/fedor/laboratoryworkmicro/entities/dto/update/AudioUpdate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entities/src/main/java/com/cvetkov/fedor/laboratoryworkmicro/entities/dto/update/AuthorUpdate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entities/src/main/java/com/cvetkov/fedor/laboratoryworkmicro/entities/dto/update/CityUpdate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entities/src/main/java/com/cvetkov/fedor/laboratoryworkmicro/entities/dto/update/ConcertUpdate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entities/src/main/java/com/cvetkov/fedor/laboratoryworkmicro/entities/dto/update/CountryUpdate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entities/src/main/java/com/cvetkov/fedor/laboratoryworkmicro/entities/dto/update/SubscriptionUpdate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entities/src/main/java/com/cvetkov/fedor/laboratoryworkmicro/entities/dto/update/TicketUpdate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entities/src/main/java/com/cvetkov/fedor/laboratoryworkmicro/entities/dto/update/UserPlaylistUpdate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entities/src/main/java/com/cvetkov/fedor/laboratoryworkmicro/entities/dto/update/UserSubscriptionUpdate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entities/src/main/java/com/cvetkov/fedor/laboratoryworkmicro/entities/dto/update/UserUpdate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entities/src/main/java/com/cvetkov/fedor/laboratoryworkmicro/entities/mapper/AudioMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entities/src/main/java/com/cvetkov/fedor/laboratoryworkmicro/entities/mapper/AuthorMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entities/src/main/java/com/cvetkov/fedor/laboratoryworkmicro/entities/mapper/CityMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entities/src/main/java/com/cvetkov/fedor/laboratoryworkmicro/entities/mapper/ConcertMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entities/src/main/java/com/cvetkov/fedor/laboratoryworkmicro/entities/mapper/CountryMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entities/src/main/java/com/cvetkov/fedor/laboratoryworkmicro/entities/mapper/SubscriptionMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entities/src/main/java/com/cvetkov/fedor/laboratoryworkmicro/entities/mapper/TicketMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entities/src/main/java/com/cvetkov/fedor/laboratoryworkmicro/entities/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entities/src/main/java/com/cvetkov/fedor/laboratoryworkmicro/entities/mapper/UserPlaylistMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entities/src/main/java/com/cvetkov/fedor/laboratoryworkmicro/entities/mapper/UserSubscriptionMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entities/src/main/java/com/cvetkov/fedor/laboratoryworkmicro/entities/mapper/config/MapperConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entities/src/main/java/com/cvetkov/fedor/laboratoryworkmicro/entities/model/Audio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entities/src/main/java/com/cvetkov/fedor/laboratoryworkmicro/entities/model/Author.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entities/src/main/java/com/cvetkov/fedor/laboratoryworkmicro/entities/model/City.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entities/src/main/java/com/cvetkov/fedor/laboratoryworkmicro/entities/model/Concert.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entities/src/main/java/com/cvetkov/fedor/laboratoryworkmicro/entities/model/Country.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entities/src/main/java/com/cvetkov/fedor/laboratoryworkmicro/entities/model/RoleEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entities/src/main/java/com/cvetkov/fedor/laboratoryworkmicro/entities/model/Subscription.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entities/src/main/java/com/cvetkov/fedor/laboratoryworkmicro/entities/model/Ticket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entities/src/main/java/com/cvetkov/fedor/laboratoryworkmicro/entities/model/UploadedByUsers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entities/src/main/java/com/cvetkov/fedor/laboratoryworkmicro/entities/model/UploadedByUsersPK.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entities/src/main/java/com/cvetkov/fedor/laboratoryworkmicro/entities/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entities/src/main/java/com/cvetkov/fedor/laboratoryworkmicro/entities/model/UserPlaylist.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entities/src/main/java/com/cvetkov/fedor/laboratoryworkmicro/entities/model/UserSubscription.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entities/src/main/java/com/cvetkov/fedor/laboratoryworkmicro/entities/model/UsersAuthors.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entities/src/main/java/com/cvetkov/fedor/laboratoryworkmicro/entities/model/UsersAuthorsPK.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entities/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entities/src/test/java/com/cvetkov/fedor/laboratoryworkmicro/entities/EntitiesApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/github-config-server/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/github-config-server/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/github-config-server/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/github-config-server/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/github-config-server/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/github-config-server/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/github-config-server/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/github-config-server/src/main/java/com/cvetkov/fedor/laboratoryworkmicro/githubconfigserver/GithubConfigServerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/github-config-server/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/github-config-server/src/test/java/com/cvetkov/fedor/laboratoryworkmicro/githubconfigserver/GithubConfigServerApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/subscriptions/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/subscriptions/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/subscriptions/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/subscriptions/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/subscriptions/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/subscriptions/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/subscriptions/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/subscriptions/src/main/java/com/cvetkov/fedor/laboratoryworkmicro/subscriptions/SubscriptionsApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/subscriptions/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/subscriptions/src/test/java/com/cvetkov/fedor/laboratoryworkmicro/subscriptions/SubscriptionsApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users/src/main/java/com/cvetkov/fedor/laboratoryworkmicro/users/UsersApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users/src/main/java/com/cvetkov/fedor/laboratoryworkmicro/users/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users/src/main/java/com/cvetkov/fedor/laboratoryworkmicro/users/controller/UserPlaylistController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users/src/main/java/com/cvetkov/fedor/laboratoryworkmicro/users/repository/UserPlaylistRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users/src/main/java/com/cvetkov/fedor/laboratoryworkmicro/users/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users/src/main/java/com/cvetkov/fedor/laboratoryworkmicro/users/service/UserPlaylistService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users/src/main/java/com/cvetkov/fedor/laboratoryworkmicro/users/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users/src/main/java/com/cvetkov/fedor/laboratoryworkmicro/users/service/impl/UserPlaylistServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users/src/main/java/com/cvetkov/fedor/laboratoryworkmicro/users/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users/src/test/java/com/cvetkov/fedor/laboratoryworkmicro/users/UsersApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/src/main/java/com/cvetkov/fedor/laboratoryworkmicro/utils/enums/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/src/main/java/com/cvetkov/fedor/laboratoryworkmicro/utils/enums/UserStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/src/main/java/com/cvetkov/fedor/laboratoryworkmicro/utils/exception/ExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/src/main/java/com/cvetkov/fedor/laboratoryworkmicro/utils/exception/ObjectNotFoundException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -29,7 +181,20 @@
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
-      <ProjectState />
+      <ProjectState>
+        <dataType path="$PROJECT_DIR$">
+          <ModuleState>
+            <id value="com.intellij.externalSystem.JavaModuleData" />
+            <id value="com.intellij.openapi.externalSystem.model.project.ContentRootData" />
+            <id value="com.intellij.openapi.externalSystem.model.project.ModuleSdkData" />
+            <id value="com.intellij.openapi.externalSystem.model.task.TaskData" />
+            <id value="org.jetbrains.kotlin.android.synthetic.idea.AndroidExtensionProperties" />
+            <id value="org.jetbrains.plugins.gradle.model.GradleExtensions" />
+            <id value="org.jetbrains.plugins.gradle.model.data.BuildScriptClasspathData" />
+            <id value="org.jetbrains.plugins.gradle.model.data.GradleProjectBuildScriptData" />
+          </ModuleState>
+        </dataType>
+      </ProjectState>
     </projectState>
     <projectState path="$PROJECT_DIR$/api-gateway">
       <ProjectState>
@@ -66,6 +231,9 @@
         <option name="isInclusion" value="true" />
       </ProjectState>
     </projectState>
+    <projectState path="$PROJECT_DIR$/utils">
+      <ProjectState />
+    </projectState>
   </component>
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
@@ -76,12 +244,38 @@
         <task path="$PROJECT_DIR$">
           <activation />
         </task>
+        <task path="$PROJECT_DIR$/audios">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/entities">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/api-gateway">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
             <expand>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="laboratoryFedorMicro" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="laboratoryFedorMicro" type="f1a62948:ProjectNode" />
+                <item name="audios" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="laboratoryFedorMicro" type="f1a62948:ProjectNode" />
+                <item name="audios" type="2d1252cf:ModuleNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="laboratoryFedorMicro" type="f1a62948:ProjectNode" />
+                <item name="audios" type="2d1252cf:ModuleNode" />
+                <item name="Run Configurations" type="7b0102dc:RunConfigurationsNode" />
               </path>
             </expand>
             <select />
@@ -103,11 +297,14 @@
         <entry key="$PROJECT_DIR$" value="eureka-server" />
       </map>
     </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/entities" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2JSoKkKkcFqUod70E4MmtmzfiSI" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -126,20 +323,35 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "C:/Users/Вдадислав/IdeaProjects/gradle-micro-demo",
+    "last_opened_file_path": "C:/Users/Вдадислав/IdeaProjects/laboratoryFedorMicro/concerts/src/main/java/com/cvetkov/fedor/laboratoryworkmicro/concerts/service",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "File.Encoding",
-    "spring.configuration.checksum": "2ec28a4e1e1a4df8a2e15e22c802252c"
+    "settings.editor.selected.configurable": "editor.preferences.import",
+    "spring.configuration.checksum": "56e0b9c693feb49b3680fcad5d3c0fdc"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
+    ]
   }
 }]]></component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.cvetkov.fedor.laboratoryworkmicro.entities.model" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Вдадислав\IdeaProjects\laboratoryFedorMicro\entities\src\main\java\com\cvetkov\fedor\laboratoryworkmicro\entities" />
+      <recent name="C:\Users\Вдадислав\IdeaProjects\laboratoryFedorMicro\concerts\src\main\java\com\cvetkov\fedor\laboratoryworkmicro\concerts\service" />
+      <recent name="C:\Users\Вдадислав\IdeaProjects\laboratoryFedorMicro\concerts\src\main\java\com\cvetkov\fedor\laboratoryworkmicro\concerts\repository" />
+      <recent name="C:\Users\Вдадислав\IdeaProjects\laboratoryFedorMicro\concerts\src\main\java\com\cvetkov\fedor\laboratoryworkmicro\concerts\controller" />
+      <recent name="C:\Users\Вдадислав\IdeaProjects\laboratoryFedorMicro\audios\src\main\java\com\cvetkov\fedor\laboratoryworkmicro\audios\repository" />
+      <recent name="C:\Users\Вдадислав\IdeaProjects\laboratoryFedorMicro\audios\src\main\java\com\cvetkov\fedor\laboratoryworkmicro\audios\service" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.cvetkov.fedor.laboratoryworkmicro.entities.exception" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -149,24 +361,16 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.EntitiesApplication">
-    <configuration name="ApiGatewayApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="api-gateway.main" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cvetkov.fedor.laboratoryWorkMicro.gateway.ApiGatewayApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ApiGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+  <component name="RunManager" selected="Spring Boot.GithubConfigServerApplication">
+    <configuration name="ApiGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="laboratoryFedorMicro.api-gateway.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.cvetkov.fedor.laboratoryWorkMicro.gateway.ApiGatewayApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AudiosApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="audios.main" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cvetkov.fedor.laboratoryworkmicro.audios.AudiosApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cvetkov.fedor.laboratoryWorkMicro.gateway.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -178,29 +382,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConcertsApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="concerts.main" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cvetkov.fedor.laboratoryworkmicro.concerts.ConcertsApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ConcertsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <configuration name="ConcertsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="laboratoryFedorMicro.concerts.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.cvetkov.fedor.laboratoryworkmicro.concerts.ConcertsApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EntitiesApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="laboratoryFedorMicro.entities.main" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cvetkov.fedor.laboratoryworkmicro.entities.EntitiesApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cvetkov.fedor.laboratoryworkmicro.concerts.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="EntitiesApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="entities.main" />
+      <module name="laboratoryFedorMicro.entities.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.cvetkov.fedor.laboratoryworkmicro.entities.EntitiesApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -213,48 +409,80 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GithubConfigServerApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="github-config-server.main" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cvetkov.fedor.laboratoryworkmicro.githubconfigserver.GithubConfigServerApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GithubConfigServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <configuration name="GithubConfigServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="laboratoryFedorMicro.github-config-server.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.cvetkov.fedor.laboratoryworkmicro.githubconfigserver.GithubConfigServerApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cvetkov.fedor.laboratoryworkmicro.githubconfigserver.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SubscriptionsApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="subscriptions.main" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cvetkov.fedor.laboratoryworkmicro.subscriptions.SubscriptionsApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SubscriptionsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <configuration name="SubscriptionsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="laboratoryFedorMicro.subscriptions.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.cvetkov.fedor.laboratoryworkmicro.subscriptions.SubscriptionsApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cvetkov.fedor.laboratoryworkmicro.subscriptions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UsersApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="users.main" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cvetkov.fedor.laboratoryworkmicro.users.UsersApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UsersApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <configuration name="UsersApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="laboratoryFedorMicro.users.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.cvetkov.fedor.laboratoryworkmicro.users.UsersApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cvetkov.fedor.laboratoryworkmicro.users.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UtilsApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="laboratoryFedorMicro.utils.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cvetkov.fedor.laboratoryworkmicro.utils.UtilsApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UtilsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="utils.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cvetkov.fedor.laboratoryworkmicro.utils.UtilsApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.AudiosApplication" />
+      <item itemvalue="Spring Boot.EntitiesApplication" />
+      <item itemvalue="Spring Boot.EurekaServerApplication" />
+      <item itemvalue="Spring Boot.UtilsApplication" />
+      <item itemvalue="Spring Boot.UtilsApplication (1)" />
+      <item itemvalue="Spring Boot.GithubConfigServerApplication" />
+      <item itemvalue="Spring Boot.ApiGatewayApplication" />
+      <item itemvalue="Spring Boot.ConcertsApplication" />
+      <item itemvalue="Spring Boot.SubscriptionsApplication" />
+      <item itemvalue="Spring Boot.UsersApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.ConcertsApplication" />
+        <item itemvalue="Spring Boot.ApiGatewayApplication" />
+        <item itemvalue="Spring Boot.UsersApplication" />
+        <item itemvalue="Spring Boot.GithubConfigServerApplication" />
+        <item itemvalue="Spring Boot.SubscriptionsApplication" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -269,6 +497,11 @@
       <workItem from="1672128083755" duration="12051000" />
       <workItem from="1672164481830" duration="3083000" />
       <workItem from="1672210864881" duration="10669000" />
+      <workItem from="1672224047515" duration="6745000" />
+      <workItem from="1672249074900" duration="4219000" />
+      <workItem from="1672298883215" duration="7378000" />
+      <workItem from="1672332404112" duration="1847000" />
+      <workItem from="1672396364661" duration="8305000" />
     </task>
     <task id="LOCAL-00001" summary="Added empty project.">
       <created>1672080994905</created>
@@ -297,6 +530,27 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added empty project." />
     <option name="LAST_COMMIT_MESSAGE" value="Added empty project." />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/concerts/src/main/java/com/cvetkov/fedor/laboratoryworkmicro/concerts/service/impl/TicketServiceImpl.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/entities/src/main/java/com/cvetkov/fedor/laboratoryworkmicro/entities/mapper/TicketMapper.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="java.lang.reflect.InvocationTargetException" memberName="cause" />
+      </pinned-members>
+    </pin-to-top-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
