@@ -5,7 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8ed440ac-56df-4e78-b984-f62b1d42e4be" name="Changes" comment="test submodules add utils.">
-      <change beforePath="$PROJECT_DIR$/.gitmodules" beforeDir="false" afterPath="$PROJECT_DIR$/.gitmodules" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/utils/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/utils/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/utils/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/utils/gradlew" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/utils/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/src/main/java/com/cvetkov/fedor/laboratoryworkmicro/utils/UtilsApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/utils/src/main/java/com/cvetkov/fedor/laboratoryworkmicro/utils/UtilsApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/utils/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/src/test/java/com/cvetkov/fedor/laboratoryworkmicro/utils/UtilsApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/utils/src/test/java/com/cvetkov/fedor/laboratoryworkmicro/utils/UtilsApplicationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -193,6 +200,9 @@
       <recent name="C:\Users\Вдадислав\IdeaProjects\laboratoryFedorMicro\audios\src\main\java\com\cvetkov\fedor\laboratoryworkmicro\audios\repository" />
       <recent name="C:\Users\Вдадислав\IdeaProjects\laboratoryFedorMicro\audios\src\main\java\com\cvetkov\fedor\laboratoryworkmicro\audios\service" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Вдадислав\IdeaProjects\laboratoryFedorMicro\utils" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.cvetkov.fedor.laboratoryworkmicro.entities.exception" />
     </key>
@@ -353,7 +363,7 @@
       <workItem from="1672298883215" duration="7378000" />
       <workItem from="1672332404112" duration="1847000" />
       <workItem from="1672396364661" duration="9237000" />
-      <workItem from="1672743936716" duration="13853000" />
+      <workItem from="1672743936716" duration="14251000" />
     </task>
     <task id="LOCAL-00001" summary="Added empty project.">
       <created>1672080994905</created>
@@ -439,7 +449,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672758792299</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="test submodules add utils.">
+      <created>1672759122288</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1672759122288</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
