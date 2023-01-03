@@ -16,9 +16,9 @@
 [submodule "github-config-server"]
     path = github-config-server
     url = git@github.com:Barsu4ello/laboratoryFedorMicro.github-config-server.git
-[submodule "subscription"]
-    path = subscription
-    url = git@github.com:Barsu4ello/laboratoryFedorMicro.subscription.git
+[submodule "subscriptions"]
+    path = subscriptions
+    url = git@github.com:Barsu4ello/laboratoryFedorMicro.subscriptions.git
 [submodule "users"]
     path = users
     url = git@github.com:Barsu4ello/laboratoryFedorMicro.users.git
