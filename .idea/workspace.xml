@@ -5,14 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8ed440ac-56df-4e78-b984-f62b1d42e4be" name="Changes" comment="test submodules add utils.">
-      <change beforePath="$PROJECT_DIR$/utils/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/utils/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/utils/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/utils/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/utils/gradlew" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/utils/settings.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/src/main/java/com/cvetkov/fedor/laboratoryworkmicro/utils/UtilsApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/utils/src/main/java/com/cvetkov/fedor/laboratoryworkmicro/utils/UtilsApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/utils/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/src/test/java/com/cvetkov/fedor/laboratoryworkmicro/utils/UtilsApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/utils/src/test/java/com/cvetkov/fedor/laboratoryworkmicro/utils/UtilsApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +70,9 @@
       </ProjectState>
     </projectState>
     <projectState path="$PROJECT_DIR$/utils">
-      <ProjectState />
+      <ProjectState>
+        <option name="isInclusion" value="true" />
+      </ProjectState>
     </projectState>
   </component>
   <component name="ExternalProjectsManager">
@@ -106,19 +103,7 @@
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="laboratoryFedorMicro" type="f1a62948:ProjectNode" />
-                <item name="audios" type="2d1252cf:ModuleNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="laboratoryFedorMicro" type="f1a62948:ProjectNode" />
-                <item name="audios" type="2d1252cf:ModuleNode" />
-                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="laboratoryFedorMicro" type="f1a62948:ProjectNode" />
-                <item name="audios" type="2d1252cf:ModuleNode" />
-                <item name="Run Configurations" type="7b0102dc:RunConfigurationsNode" />
+                <item name="utils" type="2d1252cf:ModuleNode" />
               </path>
             </expand>
             <select />
@@ -363,7 +348,7 @@
       <workItem from="1672298883215" duration="7378000" />
       <workItem from="1672332404112" duration="1847000" />
       <workItem from="1672396364661" duration="9237000" />
-      <workItem from="1672743936716" duration="14251000" />
+      <workItem from="1672743936716" duration="14433000" />
     </task>
     <task id="LOCAL-00001" summary="Added empty project.">
       <created>1672080994905</created>
