@@ -5,6 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8ed440ac-56df-4e78-b984-f62b1d42e4be" name="Changes" comment="test submodules commit.">
+      <change afterPath="$PROJECT_DIR$/laboratoryFedorMicro.audios" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitmodules" beforeDir="false" afterPath="$PROJECT_DIR$/.gitmodules" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,6 +56,9 @@
       <ProjectState>
         <option name="isInclusion" value="true" />
       </ProjectState>
+    </projectState>
+    <projectState path="$PROJECT_DIR$/laboratoryFedorMicro.api-gateway">
+      <ProjectState />
     </projectState>
     <projectState path="$PROJECT_DIR$/subscriptions">
       <ProjectState>
@@ -158,9 +164,10 @@
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "17",
     "last_opened_file_path": "C:/Users/Вдадислав/IdeaProjects/laboratoryFedorMicro",
+    "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "editor.preferences.import",
     "spring.configuration.checksum": "56e0b9c693feb49b3680fcad5d3c0fdc"
   },
@@ -201,6 +208,13 @@
     </option>
   </component>
   <component name="RunManager" selected="Spring Boot.GithubConfigServerApplication">
+    <configuration name="ApiGatewayApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="api-gateway.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cvetkov.fedor.laboratoryWorkMicro.gateway.ApiGatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ApiGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="laboratoryFedorMicro.api-gateway.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.cvetkov.fedor.laboratoryWorkMicro.gateway.ApiGatewayApplication" />
@@ -302,6 +316,7 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Spring Boot.ApiGatewayApplication (1)" />
       <item itemvalue="Spring Boot.AudiosApplication" />
       <item itemvalue="Spring Boot.EntitiesApplication" />
       <item itemvalue="Spring Boot.EurekaServerApplication" />
@@ -341,7 +356,7 @@
       <workItem from="1672298883215" duration="7378000" />
       <workItem from="1672332404112" duration="1847000" />
       <workItem from="1672396364661" duration="9237000" />
-      <workItem from="1672743936716" duration="7033000" />
+      <workItem from="1672743936716" duration="7773000" />
     </task>
     <task id="LOCAL-00001" summary="Added empty project.">
       <created>1672080994905</created>
@@ -371,7 +386,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672750517709</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="test submodules commit.">
+      <created>1672752075881</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1672752075881</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

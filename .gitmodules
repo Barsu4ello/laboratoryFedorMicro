@@ -1,3 +1,6 @@
 [submodule "laboratoryFedorMicro.api-gateway"]
 	path = laboratoryFedorMicro.api-gateway
 	url = https://github.com/Barsu4ello/laboratoryFedorMicro.api-gateway
+[submodule "laboratoryFedorMicro.audios"]
+	path = laboratoryFedorMicro.audios
+	url = git@github.com:Barsu4ello/laboratoryFedorMicro.audios.git
