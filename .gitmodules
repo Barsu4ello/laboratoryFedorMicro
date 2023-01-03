@@ -1,6 +1,24 @@
-[submodule "laboratoryFedorMicro.api-gateway"]
-	path = laboratoryFedorMicro.api-gateway
+[submodule "api-gateway"]
+	path = api-gateway
 	url = https://github.com/Barsu4ello/laboratoryFedorMicro.api-gateway
 [submodule "audios"]
 	path = audios
 	url = git@github.com:Barsu4ello/laboratoryFedorMicro.audios.git
+[submodule "concerts"]
+	path = concerts
+	url = git@github.com:Barsu4ello/laboratoryFedorMicro.concerts.git
+[submodule "entities"]
+    path = entities
+    url = git@github.com:Barsu4ello/laboratoryFedorMicro.entities.git
+[submodule "eureka-server"]
+    path = eureka-server
+    url = git@github.com:Barsu4ello/laboratoryFedorMicro.eureka-server.git
+[submodule "github-config-server"]
+    path = github-config-server
+    url = git@github.com:Barsu4ello/laboratoryFedorMicro.github-config-server.git
+[submodule "subscription"]
+    path = subscription
+    url = git@github.com:Barsu4ello/laboratoryFedorMicro.subscription.git
+[submodule "users"]
+    path = users
+    url = git@github.com:Barsu4ello/laboratoryFedorMicro.users.git
