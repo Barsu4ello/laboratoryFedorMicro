@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8ed440ac-56df-4e78-b984-f62b1d42e4be" name="Changes" comment="Added concerts, audios, users.">
-      <change afterPath="$PROJECT_DIR$/.gitmodules" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/laboratoryFedorMicro.api-gateway" afterDir="false" />
+    <list default="true" id="8ed440ac-56df-4e78-b984-f62b1d42e4be" name="Changes" comment="test submodules commit.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -132,7 +130,7 @@
         <entry key="$PROJECT_DIR$" value="eureka-server" />
       </map>
     </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/entities" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -343,7 +341,7 @@
       <workItem from="1672298883215" duration="7378000" />
       <workItem from="1672332404112" duration="1847000" />
       <workItem from="1672396364661" duration="9237000" />
-      <workItem from="1672743936716" duration="5829000" />
+      <workItem from="1672743936716" duration="7033000" />
     </task>
     <task id="LOCAL-00001" summary="Added empty project.">
       <created>1672080994905</created>
@@ -366,7 +364,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672406799607</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="test submodules commit.">
+      <created>1672750517709</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1672750517709</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -428,7 +433,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added empty project." />
     <MESSAGE value="Added concerts, audios, users." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added concerts, audios, users." />
+    <MESSAGE value="test submodules commit." />
+    <option name="LAST_COMMIT_MESSAGE" value="test submodules commit." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
