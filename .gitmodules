@@ -22,3 +22,6 @@
 [submodule "users"]
     path = users
     url = git@github.com:Barsu4ello/laboratoryFedorMicro.users.git
+[submodule "utils"]
+    path = utils
+    url = git@github.com:Barsu4ello/laboratoryFedorMicro.utils.git

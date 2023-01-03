@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8ed440ac-56df-4e78-b984-f62b1d42e4be" name="Changes" comment="test submodules commit 2.">
-      <change afterPath="$PROJECT_DIR$/audios1" afterDir="false" />
+    <list default="true" id="8ed440ac-56df-4e78-b984-f62b1d42e4be" name="Changes" comment="test submodules utils.">
       <change beforePath="$PROJECT_DIR$/.gitmodules" beforeDir="false" afterPath="$PROJECT_DIR$/.gitmodules" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -167,7 +165,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "editor.preferences.import",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
     "spring.configuration.checksum": "56e0b9c693feb49b3680fcad5d3c0fdc"
   },
   "keyToStringList": {
@@ -355,7 +353,7 @@
       <workItem from="1672298883215" duration="7378000" />
       <workItem from="1672332404112" duration="1847000" />
       <workItem from="1672396364661" duration="9237000" />
-      <workItem from="1672743936716" duration="13176000" />
+      <workItem from="1672743936716" duration="13537000" />
     </task>
     <task id="LOCAL-00001" summary="Added empty project.">
       <created>1672080994905</created>
@@ -427,7 +425,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672758012019</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="test submodules utils.">
+      <created>1672758709047</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1672758709047</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -491,7 +496,8 @@
     <MESSAGE value="Added concerts, audios, users." />
     <MESSAGE value="test submodules commit." />
     <MESSAGE value="test submodules commit 2." />
-    <option name="LAST_COMMIT_MESSAGE" value="test submodules commit 2." />
+    <MESSAGE value="test submodules utils." />
+    <option name="LAST_COMMIT_MESSAGE" value="test submodules utils." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
