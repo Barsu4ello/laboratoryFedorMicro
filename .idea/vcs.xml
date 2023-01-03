@@ -8,6 +8,7 @@
     <mapping directory="$PROJECT_DIR$/entities" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/eureka-server" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/github-config-server" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/laboratoryFedorMicro.audios" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/subscriptions" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/users" vcs="Git" />
   </component>
