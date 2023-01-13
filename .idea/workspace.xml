@@ -5,7 +5,59 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8ed440ac-56df-4e78-b984-f62b1d42e4be" name="Changes" comment="test submodules add utils.">
+      <change afterPath="$PROJECT_DIR$/audios/src/main/java/com/cvetkov/fedor/laboratoryworkmicro/audios/feign/UserFeignClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/audios/src/main/java/com/cvetkov/fedor/laboratoryworkmicro/audios/repository/UploadedByUsersRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concerts/src/main/java/com/cvetkov/fedor/laboratoryworkmicro/concerts/feign/UserFeignClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/subscriptions/src/main/java/com/cvetkov/fedor/laboratoryworkmicro/subscriptions/controller/SubscriptionController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/subscriptions/src/main/java/com/cvetkov/fedor/laboratoryworkmicro/subscriptions/controller/UserSubscriptionController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/subscriptions/src/main/java/com/cvetkov/fedor/laboratoryworkmicro/subscriptions/feign/UserFeignClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/subscriptions/src/main/java/com/cvetkov/fedor/laboratoryworkmicro/subscriptions/repository/SubscriptionRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/subscriptions/src/main/java/com/cvetkov/fedor/laboratoryworkmicro/subscriptions/repository/UserSubscriptionRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/subscriptions/src/main/java/com/cvetkov/fedor/laboratoryworkmicro/subscriptions/repository/impl/SubscriptionRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/subscriptions/src/main/java/com/cvetkov/fedor/laboratoryworkmicro/subscriptions/service/SubscriptionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/subscriptions/src/main/java/com/cvetkov/fedor/laboratoryworkmicro/subscriptions/service/UserSubscriptionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/subscriptions/src/main/java/com/cvetkov/fedor/laboratoryworkmicro/subscriptions/service/impl/SubscriptionServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/subscriptions/src/main/java/com/cvetkov/fedor/laboratoryworkmicro/subscriptions/service/impl/UserSubscriptionServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users/src/main/java/com/cvetkov/fedor/laboratoryworkmicro/users/feign/AudioFeignClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users/src/main/java/com/cvetkov/fedor/laboratoryworkmicro/users/feign/ConcertFeignClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/audios" beforeDir="false" afterPath="$PROJECT_DIR$/audios" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/audios/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/audios/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/audios/src/main/java/com/cvetkov/fedor/laboratoryworkmicro/audios/AudiosApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/audios/src/main/java/com/cvetkov/fedor/laboratoryworkmicro/audios/AudiosApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/audios/src/main/java/com/cvetkov/fedor/laboratoryworkmicro/audios/controller/AudioController.java" beforeDir="false" afterPath="$PROJECT_DIR$/audios/src/main/java/com/cvetkov/fedor/laboratoryworkmicro/audios/controller/AudioController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/audios/src/main/java/com/cvetkov/fedor/laboratoryworkmicro/audios/repository/AudioRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/audios/src/main/java/com/cvetkov/fedor/laboratoryworkmicro/audios/repository/AudioRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/audios/src/main/java/com/cvetkov/fedor/laboratoryworkmicro/audios/service/AudioService.java" beforeDir="false" afterPath="$PROJECT_DIR$/audios/src/main/java/com/cvetkov/fedor/laboratoryworkmicro/audios/service/AudioService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/audios/src/main/java/com/cvetkov/fedor/laboratoryworkmicro/audios/service/impl/AudioServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/audios/src/main/java/com/cvetkov/fedor/laboratoryworkmicro/audios/service/impl/AudioServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/audios/src/main/java/com/cvetkov/fedor/laboratoryworkmicro/audios/service/impl/AuthorServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/audios/src/main/java/com/cvetkov/fedor/laboratoryworkmicro/audios/service/impl/AuthorServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/audios/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/audios/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/concerts" beforeDir="false" afterPath="$PROJECT_DIR$/concerts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/concerts/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/concerts/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/concerts/src/main/java/com/cvetkov/fedor/laboratoryworkmicro/concerts/ConcertsApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/concerts/src/main/java/com/cvetkov/fedor/laboratoryworkmicro/concerts/ConcertsApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/concerts/src/main/java/com/cvetkov/fedor/laboratoryworkmicro/concerts/service/impl/CityServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/concerts/src/main/java/com/cvetkov/fedor/laboratoryworkmicro/concerts/service/impl/CityServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/concerts/src/main/java/com/cvetkov/fedor/laboratoryworkmicro/concerts/service/impl/TicketServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/concerts/src/main/java/com/cvetkov/fedor/laboratoryworkmicro/concerts/service/impl/TicketServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/concerts/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/concerts/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/entities" beforeDir="false" afterPath="$PROJECT_DIR$/entities" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/entities/src/main/java/com/cvetkov/fedor/laboratoryworkmicro/entities/model/Audio.java" beforeDir="false" afterPath="$PROJECT_DIR$/entities/src/main/java/com/cvetkov/fedor/laboratoryworkmicro/entities/model/Audio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/entities/src/main/java/com/cvetkov/fedor/laboratoryworkmicro/entities/model/UploadedByUsers.java" beforeDir="false" afterPath="$PROJECT_DIR$/entities/src/main/java/com/cvetkov/fedor/laboratoryworkmicro/entities/model/UploadedByUsers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/entities/src/main/java/com/cvetkov/fedor/laboratoryworkmicro/entities/model/UploadedByUsersPK.java" beforeDir="false" afterPath="$PROJECT_DIR$/entities/src/main/java/com/cvetkov/fedor/laboratoryworkmicro/entities/model/UploadedByUsersPK.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/entities/src/main/java/com/cvetkov/fedor/laboratoryworkmicro/entities/model/UsersAuthors.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/entities/src/main/java/com/cvetkov/fedor/laboratoryworkmicro/entities/model/UsersAuthorsPK.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-server" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-server/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/subscriptions" beforeDir="false" afterPath="$PROJECT_DIR$/subscriptions" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/subscriptions/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/subscriptions/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/subscriptions/src/main/java/com/cvetkov/fedor/laboratoryworkmicro/subscriptions/SubscriptionsApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/subscriptions/src/main/java/com/cvetkov/fedor/laboratoryworkmicro/subscriptions/SubscriptionsApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/subscriptions/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/subscriptions/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users" beforeDir="false" afterPath="$PROJECT_DIR$/users" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/users/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/src/main/java/com/cvetkov/fedor/laboratoryworkmicro/users/UsersApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/users/src/main/java/com/cvetkov/fedor/laboratoryworkmicro/users/UsersApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/src/main/java/com/cvetkov/fedor/laboratoryworkmicro/users/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/users/src/main/java/com/cvetkov/fedor/laboratoryworkmicro/users/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/src/main/java/com/cvetkov/fedor/laboratoryworkmicro/users/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/users/src/main/java/com/cvetkov/fedor/laboratoryworkmicro/users/repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/src/main/java/com/cvetkov/fedor/laboratoryworkmicro/users/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/users/src/main/java/com/cvetkov/fedor/laboratoryworkmicro/users/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/src/main/java/com/cvetkov/fedor/laboratoryworkmicro/users/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/users/src/main/java/com/cvetkov/fedor/laboratoryworkmicro/users/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/users/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils" beforeDir="false" afterPath="$PROJECT_DIR$/utils" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,11 +150,6 @@
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="laboratoryFedorMicro" type="f1a62948:ProjectNode" />
               </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="laboratoryFedorMicro" type="f1a62948:ProjectNode" />
-                <item name="utils" type="2d1252cf:ModuleNode" />
-              </path>
             </expand>
             <select />
           </tree_state>
@@ -113,9 +160,13 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Rebase.Settings">
+    <option name="NEW_BASE" value="origin/master" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -123,7 +174,7 @@
         <entry key="$PROJECT_DIR$" value="eureka-server" />
       </map>
     </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/subscriptions" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -147,16 +198,18 @@
     &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
     &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
     &quot;RequestMappingsPanelWidth2&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Вдадислав/IdeaProjects/laboratoryFedorMicro&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Вдадислав/IdeaProjects/laboratoryFedorMicro/audios/src/main/java/com/cvetkov/fedor/laboratoryworkmicro/audios/feign&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;56e0b9c693feb49b3680fcad5d3c0fdc&quot;
+    &quot;spring.configuration.checksum&quot;: &quot;1686a800913c30129c967ae49290e1ec&quot;
   },
   &quot;keyToStringList&quot;: {
     &quot;ChangesTree.GroupingKeys&quot;: [
@@ -177,16 +230,18 @@
       <recent name="com.cvetkov.fedor.laboratoryworkmicro.entities.model" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Вдадислав\IdeaProjects\laboratoryFedorMicro\audios\src\main\java\com\cvetkov\fedor\laboratoryworkmicro\audios\feign" />
+      <recent name="C:\Users\Вдадислав\IdeaProjects\laboratoryFedorMicro\subscriptions\src\main\java\com\cvetkov\fedor\laboratoryworkmicro\subscriptions\service" />
+      <recent name="C:\Users\Вдадислав\IdeaProjects\laboratoryFedorMicro\subscriptions\src\main\java\com\cvetkov\fedor\laboratoryworkmicro\subscriptions\repository" />
+      <recent name="C:\Users\Вдадислав\IdeaProjects\laboratoryFedorMicro\subscriptions\src\main\java\com\cvetkov\fedor\laboratoryworkmicro\subscriptions\controller" />
       <recent name="C:\Users\Вдадислав\IdeaProjects\laboratoryFedorMicro\concerts\src\main\java\com\cvetkov\fedor\laboratoryworkmicro\concerts\service" />
-      <recent name="C:\Users\Вдадислав\IdeaProjects\laboratoryFedorMicro\concerts\src\main\java\com\cvetkov\fedor\laboratoryworkmicro\concerts\repository" />
-      <recent name="C:\Users\Вдадислав\IdeaProjects\laboratoryFedorMicro\concerts\src\main\java\com\cvetkov\fedor\laboratoryworkmicro\concerts\controller" />
-      <recent name="C:\Users\Вдадислав\IdeaProjects\laboratoryFedorMicro\audios\src\main\java\com\cvetkov\fedor\laboratoryworkmicro\audios\repository" />
-      <recent name="C:\Users\Вдадислав\IdeaProjects\laboratoryFedorMicro\audios\src\main\java\com\cvetkov\fedor\laboratoryworkmicro\audios\service" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Вдадислав\IdeaProjects\laboratoryFedorMicro\utils" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.cvetkov.fedor.laboratoryworkmicro.concerts.feign" />
+      <recent name="com.cvetkov.fedor.laboratoryworkmicro.subscriptions.feign" />
       <recent name="com.cvetkov.fedor.laboratoryworkmicro.entities.exception" />
     </key>
   </component>
@@ -198,13 +253,6 @@
     </option>
   </component>
   <component name="RunManager" selected="Spring Boot.GithubConfigServerApplication">
-    <configuration name="ApiGatewayApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="api-gateway.main" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cvetkov.fedor.laboratoryWorkMicro.gateway.ApiGatewayApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ApiGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="laboratoryFedorMicro.api-gateway.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.cvetkov.fedor.laboratoryWorkMicro.gateway.ApiGatewayApplication" />
@@ -291,27 +339,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UtilsApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <configuration name="UtilsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="laboratoryFedorMicro.utils.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.cvetkov.fedor.laboratoryworkmicro.utils.UtilsApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UtilsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="utils.main" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cvetkov.fedor.laboratoryworkmicro.utils.UtilsApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Spring Boot.ApiGatewayApplication (1)" />
-      <item itemvalue="Spring Boot.AudiosApplication" />
       <item itemvalue="Spring Boot.EntitiesApplication" />
-      <item itemvalue="Spring Boot.EurekaServerApplication" />
       <item itemvalue="Spring Boot.UtilsApplication" />
-      <item itemvalue="Spring Boot.UtilsApplication (1)" />
+      <item itemvalue="Spring Boot.AudiosApplication" />
+      <item itemvalue="Spring Boot.EurekaServerApplication" />
       <item itemvalue="Spring Boot.GithubConfigServerApplication" />
       <item itemvalue="Spring Boot.ApiGatewayApplication" />
       <item itemvalue="Spring Boot.ConcertsApplication" />
@@ -320,11 +359,11 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.ConcertsApplication" />
-        <item itemvalue="Spring Boot.ApiGatewayApplication" />
         <item itemvalue="Spring Boot.UsersApplication" />
-        <item itemvalue="Spring Boot.GithubConfigServerApplication" />
+        <item itemvalue="Spring Boot.ConcertsApplication" />
         <item itemvalue="Spring Boot.SubscriptionsApplication" />
+        <item itemvalue="Spring Boot.ApiGatewayApplication" />
+        <item itemvalue="Spring Boot.GithubConfigServerApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -348,6 +387,20 @@
       <workItem from="1672396364661" duration="9237000" />
       <workItem from="1672743936716" duration="15225000" />
       <workItem from="1672760478946" duration="2000" />
+      <workItem from="1672760509198" duration="1680000" />
+      <workItem from="1672828403449" duration="1968000" />
+      <workItem from="1672850087734" duration="6292000" />
+      <workItem from="1672865511280" duration="1934000" />
+      <workItem from="1672905316002" duration="9041000" />
+      <workItem from="1673020565026" duration="7062000" />
+      <workItem from="1673029528584" duration="49000" />
+      <workItem from="1673029605748" duration="4000" />
+      <workItem from="1673290534229" duration="6432000" />
+      <workItem from="1673373872682" duration="9346000" />
+      <workItem from="1673515399701" duration="1892000" />
+      <workItem from="1673531346249" duration="3188000" />
+      <workItem from="1673546581912" duration="4287000" />
+      <workItem from="1673595823518" duration="10306000" />
     </task>
     <task id="LOCAL-00001" summary="Added empty project.">
       <created>1672080994905</created>
@@ -454,7 +507,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672760153984</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="test submodules add utils.">
+      <created>1672760559303</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1672760559303</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -465,7 +525,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$/utils" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
         <entry key="a7da792d-5ed8-4b1e-83d8-9844f66a205a">
@@ -515,7 +587,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/concerts/src/main/java/com/cvetkov/fedor/laboratoryworkmicro/concerts/service/impl/TicketServiceImpl.java</url>
-          <line>34</line>
+          <line>39</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -530,6 +602,11 @@
         <PinnedItemInfo parentTag="java.lang.reflect.InvocationTargetException" memberName="cause" />
       </pinned-members>
     </pin-to-top-manager>
+    <watches-manager>
+      <configuration name="SpringBootApplicationConfigurationType">
+        <watch expression="userRepository" language="JAVA" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
